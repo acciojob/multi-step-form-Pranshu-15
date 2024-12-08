@@ -1,1 +1,84 @@
-
+/* General Form Styling */
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #eaf7fc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form Heading */
+  h2 {
+    margin-bottom: 20px;
+    color: #3b3b3b;
+    font-size: 20px;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Input Focus Effect */
+  input:focus {
+    outline: none;
+    border-color: #5bc0de;
+    box-shadow: 0 0 5px #5bc0de;
+  }
+  
+  /* Buttons */
+  button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #5bc0de;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    background-color: #46a8c7;
+  }
+  
+  /* Disabled Button Style */
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Navigation Buttons */
+  button.prev {
+    background-color: #d9534f;
+  }
+  
+  button.prev:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Animation for Step Transition */
+  form.fade {
+    animation: fadeEffect 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeEffect {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
